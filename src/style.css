@@ -315,4 +315,6 @@ body,.site{background:#251b27;color:#f7eee7}
 @keyframes seal-rings-burst{0%{opacity:0;transform:scale(.4) rotate(0)}25%{opacity:1}100%{opacity:0;transform:scale(1.55) rotate(18deg)}}
 @keyframes screen-glow{0%{opacity:0}35%{opacity:.9}100%{opacity:0}}
 @media(prefers-reduced-motion:reduce){.welcome,.welcome-closed,.welcome-closed .cover-content,.welcome-closed .cover-kicker,.welcome-closed .cover-open-hint,.welcome-closed .envelope-scene,.welcome-closed .envelope-photo,.welcome-closed:before,.welcome-closed .envelope-scene:before,.welcome-closed .envelope-scene:after{animation:none!important;transition-duration:.01ms!important}.welcome-closed{transition-delay:0s,0s}}
+.scratch-heart.revealed .scratch-message{width:78%;font:700 clamp(14px,4.2vw,18px)/1.25 'Cormorant Garamond',serif;letter-spacing:.01em}
+.scratch-heart.revealed .scratch-message b{font-weight:700}
 
