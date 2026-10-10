@@ -88,8 +88,8 @@ function App() {
 
         <section className="gallery section" aria-label="Scratch to reveal">
           <div className="gallery-title reveal"><span className="eyebrow">A LITTLE SURPRISE</span><h2>Scratch to <em>reveal</em></h2><div className="hero-rule"><i/><Heart size={12} fill="currentColor"/><i/></div></div>
-          <button className={`scratch-heart ${scratchRevealed ? 'revealed' : ''}`} onClick={() => setScratchRevealed(true)} aria-label="Tap the heart to reveal wedding date and venue"><svg className="scratch-heart-shape" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 91 13.8 57.2C-7.6 36.4 7.2 7 30 7c9.7 0 16.8 5 20 15 3.2-10 10.3-15 20-15 22.8 0 37.6 29.4 16.2 50.2L50 91Z"/></svg><span className="scratch-glitter"/><span className="scratch-message">{scratchRevealed ? <><b>14 October · 11:45 AM</b><br/>Nikah & wedding feast<br/><i>Jamath Samuthaya Mahal</i><br/>Nadukkadai</> : 'Tap to reveal'}</span></button>
-          <p className="gallery-caption">{scratchRevealed ? 'Mahatheer Mansoor, B.E. & Nasiha Fathima, B.Sc. · We can’t wait to celebrate with you.' : 'A little love, waiting to be discovered.'}</p>
+          <button className={`scratch-heart ${scratchRevealed ? 'revealed' : ''}`} onClick={() => setScratchRevealed(true)} aria-label="Tap the heart to reveal the wedding date and time"><svg className="scratch-heart-shape" viewBox="0 0 100 100" aria-hidden="true"><path d="M50 91 13.8 57.2C-7.6 36.4 7.2 7 30 7c9.7 0 16.8 5 20 15 3.2-10 10.3-15 20-15 22.8 0 37.6 29.4 16.2 50.2L50 91Z"/></svg><span className="scratch-glitter"/><span className="scratch-message">{scratchRevealed ? <><b>14 October</b><br/>11:45 AM</> : 'Tap to reveal'}</span></button>
+          <p className="gallery-caption">{scratchRevealed ? 'With love, Mahatheer & Nasiha.' : 'A little love, waiting to be discovered.'}</p>
         </section>
 
         <section className="venue section" id="venue">
